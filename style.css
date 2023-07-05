@@ -150,7 +150,7 @@ body{
 .home .hero-section{
     position: relative;
     width: 100%;
-    height: calc(100vh-70px);
+    height: calc(100vh - 70px);
     top: 70px;
     display: flex;
     padding: 0px 8%;
@@ -180,6 +180,36 @@ body{
 .hero-section .left-side .contents h1{
     font-size: 22px;
     text-transform: uppercase;
-    padding: 8px 0px 4px;
+    padding: 15px 0px 4px;
     color: var(--heading-clr);
+}
+.hero-section .left-side .contents h2{
+    font-size: 22px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    color: var(--darkblue-clr);
+    font-family: sans-serif;
+}
+.hero-section .left-side .contents p{
+    font-size: 15px;
+    color: var(--menu-items-clr);
+    margin-top: 10px;
+}
+
+.hero-section .left-side .contents .hire-btn{
+    margin-top: 30px;
+    padding: 9px 30px;
+    font-size: 18px;
+}
+
+.hero-section .left-side .social-media{
+    position: absolute;
+    bottom: 0px;
+}
+
+.hero-section .left-side .social-media a{
+    text-decoration: none;
+    color: #999;
+    margin-right: 20px;
+    
 }
