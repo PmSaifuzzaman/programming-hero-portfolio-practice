@@ -23,3 +23,107 @@ body{
     width: 100%;
     height: 100vh;
 }
+
+.home .background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.home .background .blob1{
+    position: absolute;
+    left: 40%;
+    top: -150px;
+    transform: rotate(-45deg);
+    opacity: 0.1;
+}
+
+.home .background .blob2{
+    position: absolute;
+    left: -100px;
+    bottom: 5%;
+    opacity: 0.1;
+}
+
+.home .background .color1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 15%;
+    left: 20%;
+    background-color: var(--lightblue-clr);
+    filter: blur(80px);
+}
+
+.home .background .color2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 20%;
+    right: 10%;
+    background-color: var(--darkblue-clr);
+    filter: blur(140px);
+}
+
+.home .background .color3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: -40px;
+    left: 40%;
+    background: -o-linear-gradient(right, #8e61dc, #8bc6f8);
+    filter: blur(110px);
+}
+
+.home .navbar{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.navbar .logo{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar .logo span{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo span b{
+    padding: 1px 5px;
+    font-size: 20px;
+    background-color: var(--darkblue-clr);
+    border-radius: 5px;
+}
+
+.navbar ul.nav-links{
+    list-style: none;
+    
+}
+.navbar ul.nav-links li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.navbar ul.nav-links li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--menu-items-clr);
+    transform: 0.5s;
+}
+
+.navbar ul.nav-links li a:hover{
+    color: var(--darkblue-clr);
+    font-weight: bold;
+}
