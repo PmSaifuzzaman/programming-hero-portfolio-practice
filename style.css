@@ -1,3 +1,25 @@
-h1{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+    --body-clr: #fbfbff;
+    --darkblue-clr: #8e61dc;
+    --lightblue-clr: #8bc6f8;
+    --menu-items-clr: #777;
+    --heading-clr: #333;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--body-clr);
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
